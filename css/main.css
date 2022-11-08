@@ -1,0 +1,134 @@
+@font-face {
+	font-family: Famtree-Bold;
+	src: url(../fonts/Font/Font/Famtree-Bold.otf);
+}
+
+@font-face {
+	font-family: Famtree-Medium;
+	src: url(../fonts/Font/Font/Famtree-Medium.otf);
+}
+
+
+@font-face {
+	font-family: Famtree-Regular;
+	src: url(../fonts/Font/Font/Famtree-Regular.otf);
+}
+
+header {
+	background: var(--unnamed-color-7d7bfa) 0% 0% no-repeat padding-box;
+	/* background: #7D7BFA 0% 0% no-repeat padding-box; */
+	background-image: url("../img/background/Group\ 8811.png");
+	opacity: 0.82;
+	min-height: 400px;
+	background-repeat: none;
+	background-position: center;
+	background-size: cover;
+
+}
+
+header .text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40vh;
+	font-family: Famtree-Medium;
+}
+
+header p {
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	font-size: 25px;
+	margin: auto;
+	font-family: Famtree-Regular;
+	line-height: 40px;
+}
+
+header .image {
+	padding-top: 25px;
+	padding-left: 5%;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.download h1 {
+	color: #3A3855;
+	font-size: 30px;
+	line-height: 50px;
+	font-family: Famtree-Medium;
+
+}
+
+.download p {
+	color: #9A98B3;
+}
+
+.download .phone-style {
+	color: #3A3855;
+	font-size: 16px;
+	font-family: Famtree-Regular;
+}
+
+.register {
+	padding: 10px;
+	border: 1px solid #ccc !important;
+	box-shadow: 5px 2px 2px 5px #F2F5F7 5px;
+	border-radius: 10px;
+}
+
+.register h1 {
+	color: #3A3855;
+	font-size: 25px;
+	font-family: Famtree-Medium;
+}
+
+
+.register .register-text {
+	color: #E3827C;
+	font-family: Famtree-Regular;
+	font-size: 15px;
+}
+
+.radio-email {
+	padding-right: 16px;
+}
+
+.phone-field h6 {
+	font-size: 17px;
+	color: #3A3855;
+	font-family: Famtree-Medium;
+}
+
+.phone-field {
+	padding-top: 32px;
+}
+
+.btn {
+	color: white;
+	background-color: #7D7BFA;
+	border-radius: 12px;
+	margin-top: 24px;
+	font-family: Famtree-Regular;
+	height: 60px;
+
+}
+
+#phone-radio {
+	font-family: Famtree-Regular;
+}
+
+footer {
+	margin-top: 100px;
+	top: 1207px;
+	height: 88px;
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	border: 5px solid var(--unnamed-color-f2f5f7);
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 5px solid #F2F5F7;
+	border-radius: 32px 32px 0px 0px;
+
+}
