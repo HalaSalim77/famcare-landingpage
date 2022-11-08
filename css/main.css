@@ -1,23 +1,37 @@
 @font-face {
-	font-family: Famtree-Bold;
+	font-family: Famtree;
 	src: url(../fonts/Font/Font/Famtree-Bold.otf);
+	font-weight: 700;
 }
 
 @font-face {
-	font-family: Famtree-Medium;
+	font-family: Famtree;
 	src: url(../fonts/Font/Font/Famtree-Medium.otf);
+		font-weight: 500;
 }
 
 
 @font-face {
-	font-family: Famtree-Regular;
+	font-family: Famtree;
 	src: url(../fonts/Font/Font/Famtree-Regular.otf);
+		font-weight: 400;
 }
+
+
+@font-face {
+	font-family: Famtree;
+	src: url(../fonts/Font/Font/Famtree-Light.otf);
+	font-weight: 300;
+}
+
+body {
+	font-family:Famtree;
+}
+
 
 header {
 	background: var(--unnamed-color-7d7bfa) 0% 0% no-repeat padding-box;
-	/* background: #7D7BFA 0% 0% no-repeat padding-box; */
-	background-image: url("../img/background/Group\ 8811.png");
+	background-image: url("../img/hero.png");
 	opacity: 0.82;
 	min-height: 400px;
 	background-repeat: none;
@@ -31,7 +45,7 @@ header .text {
 	align-items: center;
 	justify-content: center;
 	height: 40vh;
-	font-family: Famtree-Medium;
+	font-weight: 500;
 }
 
 header p {
@@ -40,7 +54,7 @@ header p {
 	line-height: 30px;
 	font-size: 25px;
 	margin: auto;
-	font-family: Famtree-Regular;
+	font-weight: 400;
 	line-height: 40px;
 }
 
@@ -59,8 +73,7 @@ body {
 	color: #3A3855;
 	font-size: 30px;
 	line-height: 50px;
-	font-family: Famtree-Medium;
-
+	font-weight: 500;
 }
 
 .download p {
@@ -70,8 +83,7 @@ body {
 .download .phone-style {
 	color: #3A3855;
 	font-size: 16px;
-	font-family: Famtree-Regular;
-}
+	font-weight: 400;}
 
 .register {
 	padding: 10px;
@@ -83,14 +95,19 @@ body {
 .register h1 {
 	color: #3A3855;
 	font-size: 25px;
-	font-family: Famtree-Medium;
+	font-weight: 500;
 }
 
 
 .register .register-text {
 	color: #E3827C;
-	font-family: Famtree-Regular;
-	font-size: 15px;
+	font-weight: 500;
+		font-size: 15px;
+}
+
+.form-check-input:checked{
+background-color: #048856;
+border-color: #048856;
 }
 
 .radio-email {
@@ -100,7 +117,7 @@ body {
 .phone-field h6 {
 	font-size: 17px;
 	color: #3A3855;
-	font-family: Famtree-Medium;
+	font-weight: 500;
 }
 
 .phone-field {
@@ -109,16 +126,17 @@ body {
 
 .btn {
 	color: white;
-	background-color: #7D7BFA;
+	background-color: #048856;
 	border-radius: 12px;
 	margin-top: 24px;
-	font-family: Famtree-Regular;
-	height: 60px;
+	font-weight: 400;
+    height: 60px;
+	padding: 0px 40px;
 
 }
 
 #phone-radio {
-	font-family: Famtree-Regular;
+		font-weight: 400;
 }
 
 footer {
